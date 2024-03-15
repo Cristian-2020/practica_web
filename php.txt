@@ -1,0 +1,43 @@
+
+--------------------------- Jueves 14 de Marzo de 2024 ---------------------------
+
+Tema: Introducción a PHP
+
+-------------------------------------------------------------
+                        PHP
+-------------------------------------------------------------
+
+=> No es fuertemente tipado. No es necesario declarar el tipo de variable
+=> Las variables todas son globlales dentro de un archivo
+
+Se inicia usando: <?php ?>
+Para imprimir se usa:
+    echo -> Es comando de consola
+    print
+
+Para concatenar se usa "."
+
+-------------------------------------------------------------
+                    CONDICIONALES
+-------------------------------------------------------------
+
+=> 1 - Confición If
+    Estructura: if ($condicion){ }
+
+=> 2 - Switch
+    Estructura:
+        switch (variable a evaluar){
+            case '':
+                break;
+            default:
+                break;
+        }
+
+    Casos concatenados:
+        switch (variable a evaluar){
+            case '':
+            case '':
+                break;
+            default:
+                break;
+        }
